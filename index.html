@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Twitter Integration</title>
+   <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+    Simple application for fetching twitter feeds by screen name.
+    <form method="post" action="result.php">
+        <div class='form_div'>
+            <!-- Form line 1 -->
+            <div class='form_label float-left'>
+                <label name="screen_name">Screen Name : </label>
+            </div>
+            <div class='form_element float-left'>
+                <input type="text" id="screen_name" name="screen_name" />
+            </div>
+            <br style='clear:both; ' />
+
+            <!-- Form line 1 -->
+            <div class='form_label float-left'>
+                &nbsp;
+            </div>
+            <div class='form_element float-left'>
+                <input type="submit" id="submit" name="submit" value="Get Tweets" />
+            </div>
+            <br style='clear:both; ' />
+        </div>
+    </form>
+</body>
+</html>

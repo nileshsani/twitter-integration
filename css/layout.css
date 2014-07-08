@@ -1,0 +1,20 @@
+body {
+    font-family: Arial; font-size: 12px;
+}
+form {
+    margin-top: 10px;
+}
+.form_div {
+    /*border: 1px solid #000;*/
+    width: 350px;
+}
+.float-left {
+    float: left;
+}
+.form_label {
+    width:100px;
+    margin: 3px 0px 0px 3px;
+}
+.form_element {
+    width:150px;
+}
